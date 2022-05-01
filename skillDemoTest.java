@@ -5,8 +5,8 @@ public class skillDemoTest {
 
     @Test
     public void testInitials() {
-        String initials = skillDemo.getInitials("Aaron Mark Tran");
-        assertEquals(initials, "A.M.T.");
+        String initials = skillDemo.getInitials("Ethan Lee");
+        assertEquals(initials, "E.L.");
     }
     
 
